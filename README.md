@@ -24,6 +24,10 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Used to make the read me file https://courses.bootcampspot.com/courses/3906/pages/3-dot-5-3-create-a-professional-project-readme?module_item_id=885925
 
+Valid password characters ![Image of valid password characters](./assets/images/Capture.PNG) https://wmich.edu/arts-sciences/technology-password-tips
+
+How I found window.confirm https://stackoverflow.com/questions/45374707/javascript-mimik-window-confirm-with-keeping-boolean-returns
+
 List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
