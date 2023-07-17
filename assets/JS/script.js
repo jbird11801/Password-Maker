@@ -51,30 +51,49 @@ var Numb = 1;
 var Lower = 2;
 var spec = 3;
 
+var Upprbool = false;
+var Numbbool = false;
+var Lowerbool = false;
+var specbool = false;
+
 
 
   while (i < passwordLength){
    
-    if (Random(4) === Uppr && UpperCheck === true ){
+    if (Random(4) === Uppr && UpperCheck === true && (Upprbool === false || (Numbbool === true && Lowerbool === true && specbool === true))){
       passwordArry[i] = AlphUpper[Random(AlphUpper.length)];
+      Upprbool = true;
       i++
     }
-      else if (Random(4) === Numb && NumberCheck === true){
+      else if (Random(4) === Numb && NumberCheck === true && (Numbbool === false || (Upprbool === true && Lowerbool === true && specbool === true))){
         passwordArry[i] = number[Random(number.length)];
+        Numbbool = true;
         i++
       }
-        else if (Random(4) === Lower && LowerCheck === true){
+        else if (Random(4) === Lower && LowerCheck === true && (Lowerbool === false || (Numbbool === true && Upprbool === true && specbool === true))){
           passwordArry[i] = AlphLower[Random(AlphLower.length)];
+          Lowerbool = true;
           i++;
         }
-          else if (Random(4) === spec && SpecialCheck === true) {
+          else if (Random(4) === spec && SpecialCheck === true && (specbool === false || (Numbbool === true && Lowerbool === true && Upprbool === true))) {
             passwordArry[i] = specialChar[Random(specialChar.length)];
+            specbool = true;
             i++
           }
   }
   for (i = 0; i < passwordLength ; i++){
 
-    password = password + passwordArry[i];
+    var lastIndex = (passwordArry.length) - 1;
+
+    var randomRndex = random(passwordArry.length)
+
+    var temp = passwordArry[lastIndex];
+
+    password = password + passwordArry[randomRndex];
+
+    passwordArry[randomRndex] = temp ;
+
+    passwordArry.pop;
     
   }
   return password;
@@ -98,3 +117,8 @@ var Random = function(X) {
   return Math.floor(Math.random() * X);
 
 };
+
+
+
+
+
