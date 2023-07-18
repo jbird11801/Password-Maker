@@ -1,6 +1,6 @@
 # Password-Maker
 
-Link to live site
+Link to live site https://jbird11801.github.io/Password-Maker/
 
 ## Description
 
@@ -10,7 +10,7 @@ Makes passwords based on feedback by the user! I learned alot about objects as t
 
 Simply push the big red button (see image) and follow the promts to get your all new password
 
-![Picture showing how to start the project](./assets/images/WebPage1.PNG.png)
+![Picture showing how to start the project](./assets/images/WebPage1.PNG)
 
 ## Credits
 
