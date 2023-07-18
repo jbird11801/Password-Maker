@@ -93,7 +93,7 @@ This Challenge is graded based on the following criteria:
 
 * Repository contains multiple descriptive commit messages.x
 
-* Repository contains quality readme file with description, screenshot, and link to deployed application.  
+* Repository contains quality readme file with description, screenshot, and link to deployed application.  x
 
 ## Review
 
