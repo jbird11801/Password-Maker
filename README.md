@@ -4,7 +4,7 @@ Link to live site https://jbird11801.github.io/Password-Maker/
 
 ## Description
 
-Makes passwords based on feedback by the user! I learned alot about objects as they confused me before this project. They still kida do but I feel alot better. The arrays were what mainly messed me up in the objects, but im sure i understand them now!
+Makes passwords based on feedback by the user! I learned alot about objects as they confused me before this project. They still kida do but I feel alot better. The arrays were what mainly messed me up in the objects, but im sure I understand them now! On lines 135 to 243 I made the program a bit more complex by adding more logic. It ensures that at least one character of the desired ones is included and randomly seeds them into the password. Since their random they could have landed on each other so I ensured they wouldn't with a while loop that I learned from a bounus question. Its extra but I feel its more secure this way and ensures that the characters you want are in the password.
 
 ## Usage
 
