@@ -64,7 +64,7 @@ if ( password.passLength >= 8 && password.passLength <= 128){
 
 var SpecialCheck = window.confirm("Do you want special characters ( ex ! , @ , #)");
 
-var LowerCheck = window.confirm("Do you want lowwer case characters ( ex a , b , c)");
+var LowerCheck = window.confirm("Do you want lower case characters ( ex a , b , c)");
 
 var UpperCheck = window.confirm("Do you want upper case characters ( ex A , B , C)");
 
